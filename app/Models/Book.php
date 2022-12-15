@@ -4,11 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\category;
+use App\Models\Category;
 use App\Models\Editorial;
 use App\Models\Author;
-use App\Models\bookDownload;
-use App\Models\bookReview;
+use App\Models\BookDownload;
+use App\Models\BookReview;
 
 class Book extends Model
 {
